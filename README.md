@@ -8,8 +8,8 @@ This repository provides a data-driven approach to segment Starbucks customers b
 ## **Data**
 The dataset contains sales data of hot beverages at popular times on a typical Wednesday.
 
-1. PTIndex: Popular times index, ranging from 1 (6am-7am) to 11 (8pm-9pm).
-2. HBIndex: Hot Beverages index, ranging from 1 (Coffee type 1) to 9 (Coffee Of the Day).
+- PTIndex: Popular times index, ranging from 1 (6am-7am) to 11 (8pm-9pm).
+- HBIndex: Hot Beverages index, ranging from 1 (Coffee type 1) to 9 (Coffee Of the Day).
 
 ## **Methodology**
 1. Data Visualization: Initial visualization of the dataset to understand the distribution of beverage sales across popular times.
@@ -37,11 +37,11 @@ Based on the clusters formed, targeted promotions can be introduced:
 - Evening specials for late-day customers.
   
 ## **Usage**
-1. Visualize the raw dataset.
-2. Determine the optimal number of clusters using the Elbow method.
-3. Apply KMeans clustering and visualize the clusters.
-4. Apply hierarchical clustering (Single, Complete, Average) and visualize the dendrograms and clusters.
-5. Generate targeted promotion recommendations based on the clusters.
+- Visualize the raw dataset.
+- Determine the optimal number of clusters using the Elbow method.
+- Apply KMeans clustering and visualize the clusters.
+- Apply hierarchical clustering (Single, Complete, Average) and visualize the dendrograms and clusters.
+- Generate targeted promotion recommendations based on the clusters.
    
 ## **Future Work**
 - Collect post-promotion data to measure the effectiveness of the targeted offers.
